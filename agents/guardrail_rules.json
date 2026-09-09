@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "min_unit_price": 3.00,
+    "max_unit_price": 5.00,
+    "min_delivery_days": 10,
+    "max_delivery_days": 45,
+    "min_sla_penalty_pct": 3,
+    "max_sla_penalty_pct": 15
+  },
+  "explanation": {
+    "min_unit_price": "Company policy: never buy below this, it signals a fake or dumped price.",
+    "max_unit_price": "Company policy: never pay above this, it blows the procurement budget.",
+    "min_delivery_days": "Legal minimum lead time for customs and quality checks.",
+    "max_delivery_days": "Business requirement: can't wait longer than this.",
+    "min_sla_penalty_pct": "Every contract must have at least this much penalty protection if supplier is late.",
+    "max_sla_penalty_pct": "Penalty can't be so high it's unenforceable/unfair."
+  }
+}
